@@ -58,3 +58,25 @@ function checkAnswer(ans) {
     setTimeout(showQuestion, 800); // 0.8 saniye sonra bir sonraki soru
   }
 }
+const questionGroups = [
+  {
+    name: "Simple Present",
+    questions: [
+      { q: "I ____ to school every day.", a: ["go", "goes", "going"], correct: "go" },
+      { q: "She ____ football on weekends.", a: ["play", "plays", "playing"], correct: "plays" },
+      // ... kendi sorularını ekle
+    ]
+  },
+  {
+    name: "Simple Past",
+    questions: [
+      { q: "I ____ yesterday.", a: ["went", "go", "going"], correct: "went" },
+    ]
+  },
+  {
+    name: "Daily Routine",
+    questions: [
+      { q: "He ____ breakfast every morning.", a: ["eat", "eats", "eating"], correct: "eats" },
+    ]
+  }
+];
