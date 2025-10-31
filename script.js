@@ -64,7 +64,8 @@ const questionGroups = [
     questions: [
       { q: "I ____ to school every day.", a: ["go", "goes", "going"], correct: "go" },
       { q: "She ____ football on weekends.", a: ["play", "plays", "playing"], correct: "plays" },
-      // ... kendi sorularını ekle
+      { q: "Susie(go)______to school every day.", a: ["go", "goes", "going"], correct: "goes"},
+      { q: "Susie (learn)_______at school every day.", a: ["learns", "learn"], correct: "learns"},
     ]
   },
   {
