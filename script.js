@@ -17,6 +17,9 @@ const questions = [
   { q: "The sun ____ in the east.", a: ["rise", "rises", "rising"], correct: "rises" },
   { q: "Susie(go)______to school every day.", a: ["go", "goes", "going"], correct: "goes"},
   { q: "Susie (learn)_______at school every day.", a: ["learns", "learn"], correct: "learns"},
+  { q: "He ___ basketball on Saturdays.", a: ["play", "plays", "playing", "is play"], correct: "plays"},
+  { q: " ___ you believe in ghosts?", a: ["does", "İs", "Are", "do"], correct: "Do"},
+  { q: "The library ___ at 8 AM on weekdays.", a: ["open", "opening", "opens", "is open"], correct: "open"},
 ];
 
 let current = 0;
