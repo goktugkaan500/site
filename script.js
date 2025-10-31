@@ -15,7 +15,8 @@ const questions = [
   { q: "My brother ____ TV in the evening.", a: ["watch", "watches", "watching"], correct: "watches" },
   { q: "Cats ____ milk.", a: ["drink", "drinks", "drinking"], correct: "drink" },
   { q: "The sun ____ in the east.", a: ["rise", "rises", "rising"], correct: "rises" },
-  // ... buraya 50-100 soruyu ekleyebilirsin
+  { q: "Susie(go)______to school every day.", a: ["go", "goes", "going"], correct: "goes"},
+  { q: "Susie (learn)_______at school every day.", a: ["learns", "learn"], correct: "learns"},
 ];
 
 let current = 0;
@@ -64,8 +65,6 @@ const questionGroups = [
     questions: [
       { q: "I ____ to school every day.", a: ["go", "goes", "going"], correct: "go" },
       { q: "She ____ football on weekends.", a: ["play", "plays", "playing"], correct: "plays" },
-      { q: "Susie(go)______to school every day.", a: ["go", "goes", "going"], correct: "goes"},
-      { q: "Susie (learn)_______at school every day.", a: ["learns", "learn"], correct: "learns"},
     ]
   },
   {
