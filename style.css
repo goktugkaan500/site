@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #1e1e2f, #292945);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #00d8ff;
+  color: black;
+}
+
+button:hover {
+  background: #02b8d8;
+}
+
+#feedback {
+  font-size: 18px;
+  margin-top: 10px;
+  height: 24px;
+}
