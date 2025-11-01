@@ -20,6 +20,10 @@ const questions = [
   { q: "He ___ basketball on Saturdays.", a: ["play", "plays", "playing", "is play"], correct: "plays"},
   { q: " ___ you believe in ghosts?", a: ["does", "İs", "Are", "do"], correct: "Do"},
   { q: "The library ___ at 8 AM on weekdays.", a: ["open", "opening", "opens", "is open"], correct: "open"},
+  { q: "Tom_________Spanish course on Sundays.", a: ["go", "plays", "takes", "learns"], correct: "learns"},
+  { q: "My father________in his room every evening.", a: ["sleeps", "rests", "cleans", "works"], correc: "rests"},
+  { q: "Our dance teacher after school_________us 'horon' after school.", a: ["solves", "learns", "studies", "teaches"], correct:"learns"},
+  {
 ];
 
 let current = 0;
